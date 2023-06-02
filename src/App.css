@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/* //header */
+.header img{
+        width: 4rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons_item {
+   font-size: 2rem;
+   margin:  0 .5rem;
+
+}
+.number_icon {
+    margin:  0 .2rem;
+}
+.nav_item{
+    text-align: center;
+}
+.nav_item a{
+    text-decoration: none;
+    margin: 0 .5rem;
+    color: black;
+    font-weight: 500;
+}
+.nav_item a.active{
+    color: green;
+}
+
+
+/* home  */
+
+.home img{
+    width: 100%;
+    height: 80vh;
+}
+.gallay_img img{
+    width: 100%;
+    height: 60vh;
+}
+.gallay_img1 img{
+    width: 100%;
+    height: 40vh;
+}
+.gallay_img {
+    width: 100%;
+    margin-top: 1rem;
+}
+.left{
+    position: relative;
+}
+.left_content{
+    width: 35%;
+    position: absolute;
+    right: 5%;
+    top : 20%;
+}
+.left_content p:first-child{
+    font-family: 'Cookie', cursive;
+    color: rgb(158, 14, 14);
+    font-size: 1.5rem;
+}
+.right_content p:first-child{
+    font-family: 'Cookie', cursive;
+    color: rgb(158, 14, 14);
+    font-size: 1.5rem;
+}
+.left_content button{
+    margin-top: 2rem;
+    background-color: darkred;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+.right{
+    position: relative;
+}
+.right_content{
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top : 20%;
+}
+.right_content button{
+    margin-top: 2rem;
+    background-color: darkred;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+.img_1{
+    position: relative;
+}
+.img_1 p{
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    font-weight: 500;
+   
+
+}
+
+/* product */
+
+.product_item img{
+    width: 100%;
+}
+.product h1{
+    font-family: 'Cookie', cursive;
+    color: rgb(158, 14, 14); 
+}
+.product{
+    padding: 0 2rem;
+    text-align: center;
+}
+.product_item button{
+    margin-top: 2rem;
+    border-style: none;
+    border-bottom: 2px solid black;
+}
+
+.right_side_img img{
+    width: 100%;
+}
+.left_side_img img{
+    width: 100%;
+}
+.right_side_img{
+    position: relative;
+}
+.content_data{
+    position: absolute;
+    top:12%;
+    left: 10%;
+    width: 50%;
+    color: white;
+}
+.content_data button{
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-top: 2rem;
+}
+.pastastory h1{
+
+    text-align: center;
+    color: red;
+    font-family: 'Cookie', cursive;
+
+
+
+}
+.pastastory{
+    margin-top: 2rem;
+}
+
+ .pastastory .row {
+    --bs-gutter-x: 0;
+}
+.subscription {
+    background-color: #c7c5c5;
+}
+.subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+#subs{
+    margin-right: .5rem;
+    margin-top: -.5rem;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+
+}
+.follows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  1rem;
+
+}
+.links{
+text-align: center;
+padding: 1rem;
+}
+.links a{
+    text-decoration: none;
+    margin: .5rem;
+    color: green;
+}
