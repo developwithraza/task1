@@ -2,9 +2,10 @@
 
 /* //header */
 .header img{
-        width: 4rem;
+        width: 6rem;
 }
 .header{
+    padding: .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +24,16 @@
     margin:  0 .2rem;
 }
 .nav_item{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .nav_item a{
     text-decoration: none;
     margin: 0 .5rem;
     color: black;
     font-weight: 500;
+    margin: .5rem;
 }
 .nav_item a.active{
     color: green;

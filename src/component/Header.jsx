@@ -10,7 +10,7 @@ function Header() {
     <header className='container'>
         <div className='header'>
             <SocialIcons />
-            <img src='https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-fast-food-logo-png-image_5763171.png' />
+            <img src='https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-chef-restaurant-logo-png-image_6136204.png' />
             <div className="serach">
                 <div className="search_item">
                     <p><span>{<AiOutlineWhatsApp className='number_icon'/>}</span>6854861243</p>
