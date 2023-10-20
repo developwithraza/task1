@@ -1,0 +1,500 @@
+.who_we_are,
+.who_we_are1 {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.who_we_are1 h1 {
+	color: black;
+	font-size: 4rem;
+
+}
+
+.who_we_are1 p {
+	font-size: 1.2rem;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.who_we_are h1 {
+	font-size: 4rem;
+	color: white;
+}
+
+.who_we_are p {
+	font-size: 1.2rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.down_arro {
+	margin-top: 3rem;
+	color: white;
+	font-size: 3rem;
+	animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+.countup {
+	font-size: 8rem;
+	color: rgb(145, 140, 140);
+	font-weight: 500;
+	opacity: .6;
+
+}
+
+.counts {
+	position: relative;
+
+}
+
+.counts p {
+	font-size: 1.2rem;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	z-index: 1;
+}
+
+.counter {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4rem;
+}
+
+.abouts button {
+	margin-top: 2rem;
+	background: linear-gradient(to right, #0066ff 48%, #66ccff 100%);
+	padding: 1rem 3rem;
+	border-radius: 0;
+}
+
+.cards {
+	margin-top: 2rem;
+}
+
+.card_item {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	overflow: hidden;
+}
+
+.card_item img {
+	width: 100%;
+	position: relative;
+	/* bottom: -20%; */
+	padding: 0;
+	right: -8%;
+
+}
+
+.card_item p {
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.ser img {
+	width: 80%;
+	height: 40vh;
+}
+
+.ser .card {
+	padding: 1rem;
+	margin: .5rem;
+	/* background-color: aquamarine; */
+}
+
+.slick-dots li button {
+	background-color: white;
+	border-radius: 50%;
+}
+
+.scroll_service {
+	position: relative;
+}
+
+.scroll_service .slick-prev {
+	position: absolute;
+	left: 35%;
+	top: 105%;
+	z-index: 1;
+}
+
+.scroll_service .slick-next {
+	position: absolute;
+	right: 35%;
+	top: 105%;
+	z-index: 1;
+}
+
+.services {
+	padding: 1rem;
+}
+
+.services p {
+	color: white;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.services h1 {
+	font-size: 2rem;
+	color: white;
+}
+
+.divider {
+	width: 15%;
+	display: flex;
+}
+
+.div1 {
+	background-color: white;
+	height: 2px;
+	width: 70%;
+	margin-right: 10px;
+}
+
+.div2 {
+	background-color: white;
+	height: 2px;
+	width: 30%;
+}
+
+.ser .card-title {
+	font-weight: 600;
+	/* color: red; */
+}
+
+.test {
+	text-align: center;
+}
+
+.test .card img {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 2%;
+	left: 40%;
+	z-index: 1;
+}
+
+.test .card {
+	background-color: #2b0631;
+	clip-path: polygon(10% 3%, 100% 0%, 91% 93%, 0% 100%);
+	border-radius: 8rem 4rem 8rem 4rem;
+	/* z-index: 3 ; */
+	padding: 1rem;
+}
+
+
+
+.test p {
+	color: white;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.test h1 {
+	font-size: 2rem;
+	color: white;
+}
+
+.test {
+	padding-top: 3rem;
+	position: relative;
+}
+
+.testmon {
+	width: 100%;
+	padding-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.testmon p {
+	color: white;
+	font-size: 1.2rem;
+
+}
+
+.testmon h1 {
+	color: white;
+	font-family: 2rem;
+	font-weight: 600;
+}
+
+.client {
+	width: 60%;
+}
+
+.name {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.prop {
+	color: white;
+	font-size: 1rem;
+}
+
+.test .card-body {
+	margin-top: 5rem;
+}
+
+.test_dis {
+	font-size: 1rem !important;
+	text-transform: capitalize !important;
+	font-weight: 200 !important;
+}
+
+.plateform {
+	padding-top: 2rem;
+}
+
+.plate {
+	margin-top: 3rem;
+	position: relative;
+}
+
+.plate img {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: -12%;
+	bottom: -2%;
+	-webkit-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.67);
+	box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.67);
+
+}
+
+.plate .card {
+	width: 100%;
+	height: 60vh;
+	border-radius: 3rem 1rem 1rem 3rem;
+	padding: 1rem;
+	z-index: 10;
+	background-color: #79155B;
+	
+}
+
+.plate .card::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	border-radius: 3rem 1rem 1rem 3rem;
+
+	z-index: -3;
+}
+.plate .card-title{
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.plate .card-text{
+	font-size: 1rem;
+}
+.read_more {
+	text-align: center;
+	margin-top: 1rem;
+}
+.read_more a{
+	text-decoration: none;
+	color: black;
+
+}
+.read_more a:hover{
+	text-decoration: underline;
+
+}
+.plte_title p{
+	color: white;
+	font-size: 1rem;
+}
+.plte_title h1{
+	font-size: 2rem;
+	color: white;
+}
+.robot img{
+	width: 30%;
+	transform: scaleX(-1);
+	z-index: 10;
+}
+.robot, .project{
+	text-align: center;
+	position: relative;
+}
+.project{
+	padding-top: 1rem;
+}
+.robot h1{
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+	/* z-index: 1; */
+	-webkit-text-stroke-width: 1px;  
+    -webkit-text-stroke-color: white;  
+    -webkit-text-fill-color: transparent;  
+}
+.project p{
+	color: white;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+
+}
+.project h1{
+	font-size: 2rem;
+	color: white;
+	text-transform: capitalize;
+}
+.project button{
+	background-color: white;
+	padding: 1rem 2rem ;
+	border-radius: 25px;
+	/* margin-top: 1rem; */
+	color: black;
+	border-style: none;
+	font-weight: 600;
+}
+
+.blog {
+	padding-top: 2rem;
+	text-align: center;
+}
+.blog p{
+	color: white;
+	font-size: 1.2rem;
+
+} 
+.blog h1{
+	font-size: 2rem;
+	color: white;
+	font-weight: 600;
+}
+.blog_btn  {
+	margin-top: 1rem;
+	text-align: center;
+}
+.blog_btn button{
+	background-color: white;
+	color: black;
+	padding: 1rem 3rem;
+	border-radius: 30px;
+	border-style: none;
+	font-weight: 600;
+}
+.blog_card .card{
+	margin-top: 1rem;
+}
+.rightArrow {
+	/* margin-top: 1rem; */
+	font-size: 2rem;
+}
+.rightArrows {
+	font-size: 2rem;
+}
+.footer_title{
+	padding-top: 2rem;
+	text-align: center;
+	
+}
+.footer_title h1{
+	color: white;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.first p{
+	margin: 1rem 0;
+	color: white;
+	font-size: 1.2rem;
+}
+.first li{
+	list-style: none;
+	color: white;
+	font-size: 1rem;
+	margin: 1rem 0;
+}
+.ic{
+	margin-right: .5rem;
+	font-size: 1.2rem;
+}
+.footer_bottom {
+	margin-top: 1rem;
+	text-align: center;
+}
+.footer_bottom p{
+	color: white;
+	font-size: 1rem;
+}
+.footbtn p{
+	color: white;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+}
+.copy{
+	text-align: center;
+	margin-top: 2rem;
+}
+.copy p{
+	color: white;
+	font-size: 1rem;
+}
+
